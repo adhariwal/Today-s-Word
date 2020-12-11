@@ -300,6 +300,7 @@
 
 <div class="narrow">
     <p><?php echo __("Choose a JOSN file to upload, then click Upload file and import.","TodaysWord"); ?></p>
+    <p> <a download href="<?php echo plugin_dir_url( __FILE__ ); ?>/demo.json">Download Json</a></p>
     <form enctype="multipart/form-data" id="import-upload-form" method="post" class="wp-upload-form" action="">
         <p>
             <label for="upload"><?php _e('Choose a file from your computer:',"TodaysWord"); ?></label>
